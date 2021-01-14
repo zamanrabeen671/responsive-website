@@ -1,0 +1,157 @@
+/* Google font link */
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+body{
+	/* Google Fonts */
+}
+a,a:hover{
+	text-decoration: none;
+}
+img{
+	vertical-align: center;
+}
+ul,ol{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h5,p,a,img,ul,ol,nav{
+	padding: 0;
+	margin: 0;
+}
+/* myCSS Start */
+.navbar .nav-item .nav-link{
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 15px;
+	color: black;
+}
+header{
+	background-color: #FFFBF0;
+	height: 750px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.header-content h1{
+	font-size: 80px;
+}
+.highlighter{
+	font-family: 'Bebas Neue', cursive;
+	color: #FABE4C;
+}
+.hc-1{
+	font-family: 'Bebas Neue', cursive;
+	color: #363938;
+	margin-bottom: 5px;
+}
+.buy-now-btn{
+	margin-top: 15px;
+	padding: 15px 25px;
+	border: none;
+	border-radius: 10px;
+	background-color: #A4BC46;
+	font-size: 15px;
+	color: #ffffffd8;
+}
+.icon-flo{
+	width: 25px;
+}
+.img-body{
+	background-color: #F1F1F1;
+	height: 310px;
+	width: 320px;
+	margin: 15px 0;
+	border-radius: 10px;
+	justify-content: center;
+}
+.img-body img{
+	height: 290px;
+	justify-content: center;
+	
+}
+
+#jacket-2{
+	width: 250px;
+	margin: 10px 30px 10px 30px;
+}
+#jacket-3{
+	width: 260px;
+	margin: 0 25px 0 25px;
+}
+#m-jacket-1{
+	width: 250px;
+	margin: 10px 30px 10px 30px;
+}
+#m-jacket-3{
+	width: 250px;
+	margin: 10px 30px 10px 30px;
+}
+#m-jacket-2{
+	width: 250px;
+	margin: 10px 30px;
+}
+.penguine-card{
+	border: none;
+	border-radius: 10px;
+}
+.penguine-footer-card{
+	background-color: white;
+	border: none;
+}
+.penguine-footer-card h3{
+	margin-top: 20px;
+}
+.abt-card{
+	border: none;
+}
+.about-card{
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+.abt-img img{
+	width: 450px;
+	height: 350px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.abt-icon{
+	margin: 20px;
+}
+.contact-section{
+	background-color: rgb(157, 221, 221);
+	height: 500px;
+}
+.h-icon{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.form-box{
+	padding: 41px 0 71px;
+}
+.form-box .form-group{
+	margin: 0;
+	padding-bottom: 30px;
+}
+
+.form-box .form-group .text{
+	width: 50%;
+	margin: 0 auto;
+}
+.form-box .form-group .message{
+	width: 70%;
+	margin: 0 auto;
+	border: 1px solid #898989;
+	padding: 20px 0;
+}
+.form-box input, .form-box input:focus{
+	background: transparent;
+	box-shadow: none;
+	border-color: transparent;
+	border-bottom-color: #898989;
+	border-radius: 0;
+}
+.form-box .message:focus{
+	border-top-color: #898989;
+}
+/* myCSS End */

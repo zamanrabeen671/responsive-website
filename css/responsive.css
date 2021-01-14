@@ -1,0 +1,25 @@
+@media (max-width: 576px){
+	.header-part{
+		height: 1000px;
+	}
+	.abt-icon{
+		
+		width: 10px;
+		margin-left: 20%;
+	}
+	.navbar-brand{
+		float: left;
+		width: 400px;
+		margin-right: 0;
+		margin-left: 0;
+
+	}
+	.navbar-toggler{
+		float: right;
+		border: none;
+		width: 1rem;
+	}
+	.abt-img{
+		margin-top: 100px;
+	}
+}
