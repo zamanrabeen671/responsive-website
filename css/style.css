@@ -177,5 +177,9 @@ header{
 .form-box .message:focus{
 	border-top-color: #898989;
 }
+.jacket-title{
+	font-size: 20px;
+	font-weight: bold;
 
+}
 /* myCSS End */
