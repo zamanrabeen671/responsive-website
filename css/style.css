@@ -27,12 +27,12 @@ h1,h2,h3,h4,h5,h5,p,a,img,ul,ol,nav{
 	font-size: 15px;
 	color: black;
 }
-.nav-item .nav-link:hover{
+.navbar .nav-item .nav-link:hover{
 	background-color: rgb(218, 187, 52);
 	border-radius: 20px;
 	color: white !important;
-	font-size: 16px;
-	transform: all ease-in 1s;
+	font-size: 15px;
+	transition: all ease-in .3s;
 }
 header{
 	background-color: #FFFBF0;
@@ -43,9 +43,14 @@ header{
 .header-content h1{
 	font-size: 80px;
 }
-.highlighter{
-	font-family: 'Bebas Neue', cursive;
+.highlighters{
 	color: #FABE4C;
+	font-family: 'Bebas Neue', cursive;	
+}
+.highlighter{
+	color: #FABE4C;
+	font-size: 35px;
+	font-weight: bold;
 }
 .hc-1{
 	font-family: 'Bebas Neue', cursive;
@@ -60,6 +65,10 @@ header{
 	background-color: #A4BC46;
 	font-size: 15px;
 	color: #ffffffd8;
+}
+.buy-now-btn:hover{
+	background-color: tomato;
+	color: white;
 }
 
 .icon-flo{
@@ -110,23 +119,28 @@ header{
 .penguine-footer-card h3{
 	margin-top: 20px;
 }
-.abt-card{
-	border: none;
-	width: 100%;
+.abt-shop{
+    padding: 50px 0px;
+    background-color: #fff;
 }
-.about-card{
-	margin-top: 150px;
-	margin-bottom: 100px;
+.abt-info{
+    height: 150px;
+    width: 450px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px 0px;
 }
-.abt-img img{
-	width: 450px;
-	height: 350px;
-	margin-top: 30px;
-	margin-left: 30px;
+.shop-icon img{
+    width: 100px;  
 }
-.abt-icon{
-	margin: 20px;
+.shop-con{
+    padding-left: 30px;
 }
+.abt-img{
+    padding-top: 50px;
+}
+
 .contact-section{
 	background-color: rgb(157, 221, 221);
 	height: 500px;
@@ -163,11 +177,5 @@ header{
 .form-box .message:focus{
 	border-top-color: #898989;
 }
-.abt-card{
-	text-align: center;
-}
-.abt-card h5{
-	font-size: 20px;
-	font-weight: bold;
-}
+
 /* myCSS End */

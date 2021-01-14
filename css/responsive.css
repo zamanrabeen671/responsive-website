@@ -2,10 +2,6 @@
 	.header-part{
 		height: 1050px;
 	}
-	.abt-icon{
-		border: none;
-		margin-left: 20%;
-	}
 	.navbar-brand{
 		float: left;
 		width: 400px;
@@ -18,13 +14,42 @@
 		border: none;
 		width: 1rem;
 	}
-	.abt-img{
-		margin-top: 100px;
-		width: 90%;
-	}
 }
 @media(max-width: 768px) {
 	.header-part{
 		height: 1100px;
 	}
+}
+@media(max-width:768px){
+    
+    .abt-info{
+        margin-left: 125px;
+        
+    }
+    .shoping-img{
+        text-align: center;
+    }
+    .abt-img img{
+        width: 400px;
+        
+    }
+    .abt-part{
+        margin-top: 250px;
+        padding-top: 150px;
+    }
+    
+   
+}
+@media(max-width: 576px){
+   
+    .abt-part{
+        padding-top: 150px;
+    }
+    .abt-info{
+        display: block!important;
+        height: 250px;
+        text-align: center;
+        margin: 20px auto;
+        padding: 20px 90px;
+    }
 }
